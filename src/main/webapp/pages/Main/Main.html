@@ -16,7 +16,8 @@
                     <wm-text name="text2"></wm-text>
                 </wm-container>
             </wm-composite>
-             <wm-label name="label1"></wm-label>
+            <wm-label name="label1"></wm-label>
+            <wm-prefab prefabname="googlemaps" name="googlemaps1" locations="bind:Variables.GoogleapisInvoke.dataSet.route.leg.step" lat="start_location.lat" lng="end_location.lng"></wm-prefab>
         </wm-page-content>
         <wm-right-panel columnwidth="2" name="rightpanel" content="rightnav"></wm-right-panel>
     </wm-content>
